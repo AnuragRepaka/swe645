@@ -1,0 +1,79 @@
+<!-- 
+Developer: Anurag Repaka
+This file contains css code, used by other html files.
+ -->
+
+h1 {
+	color: blue
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+.indexBody {
+	background-color: lightslategrey;
+}    
+		
+.heading {
+			border: blue;
+			border-width: 5px;
+			border-style: solid;
+			padding: 0px;
+			color: blue;
+		}
+body {
+			background-color: #ffffff;
+
+		}
+	
+.imgClass {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			width: 150px;
+			height: 150px;
+			}
+
+.informationPageBody {
+	background-color: #ffffff;
+}
+
+.specialStyleClass {font-size: 12pt; font-family: arial, sans-serif; color: red}
+
+.sec1 {
+	font-size: 18px;
+}
+
+.sec2 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 28px;
+	color: green;
+}
+
+.formbody {
+	background-color: yellowgreen;
+	font-size: 16px;
+}
+
+.formtable {
+	font-size: 18px;
+	color: tomato;
+	border: gold;
+	border-width: 3px;
+	border-style: solid;
+	padding: 0px;
+	background-color: white;
+}
+
+.error {
+	color: red;
+	position: center;
+	font-size: 18px;
+	column-span: 2;
+}

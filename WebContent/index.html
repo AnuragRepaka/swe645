@@ -1,0 +1,109 @@
+<!-- 
+Developer: Anurag Repaka
+This file contains html code for view of survey (feedback) form.
+ -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <title>Assignment 1</title>
+   <link rel="stylesheet" type="text/css" href="css/csStyles.css">
+   
+</head>
+
+<body class="formbody">
+   <h1 class="heading">Feedback Form</h1>
+   <form method="post" action="" autocomplete="on" class="formtable">
+      <table width="80%" summary="This table collects feedback about campus visit">
+
+         <tbody>
+            <tr>
+               <th>First Name</th>
+               <td><input id="name" type="text" name="Name" size="25" maxlength="30" required autofocus></td>
+            </tr>
+            <tr>
+               <th>Last Name</th>
+               <td><input id="name" type="text" name="Name" size="25" maxlength="30" required autofocus></td>
+            </tr>
+            <tr>
+               <th>Street Address</th>
+               <td><input id="address" type="text" name="Address" size="25" maxlength="30" required></td>
+            </tr>
+
+            <tr>
+               <th>City</th>
+               <td><input type="text" name="City" size="25" maxlength="30" required></td>
+            </tr>
+            <tr>
+               <th>State</th>
+               <td><input type="text" name="State" size="25" maxlength="30" required></td>
+            </tr>
+            <tr>
+               <th>Zip</th>
+               <td><input type="number" id="zip" name="zip" size="5" maxlength="5" placeholder="22031" required></td>
+            </tr>
+            <tr>
+               <th>Phone</th>
+               <td><input type="tel" name="Phone" size="25" maxlength="30" placeholder="+15233737454" required></td>
+            </tr>
+            <tr>
+               <th>Email</th>
+               <td><input id="email" type="email" name="Email" size="25" maxlength="30" placeholder="name@domain.com"
+                     required></td>
+            </tr>
+            <tr>
+               <th>Today's Date</th>
+               <td><input type="date" name="Date" size="25" maxlength="30" placeholder="mm/dd/yyyy" required></td>
+            </tr>
+            <tr>
+               <th>Most likeable about the campus</th>
+               <td>
+                  <label>Students<input name="thingsliked" type="checkbox" value="Students" /></label>
+                  <label>Location<input name="thingsliked" type="checkbox" value="Location" /></label>
+                  <label>Campus<input name="thingsliked" type="checkbox" value="Campus" /></label>
+                  <label>Atmosphere<input name="thingsliked" type="checkbox" value="Atmosphere" /></label>
+                  <label>Dorm rooms<input name="thingsliked" type="checkbox" value="rooms" /></label>
+                  <label>Sports<input name="thingsliked" type="checkbox" value="Sports" /></label>
+               </td>
+            </tr>
+            <tr>
+               <th>What interested you in the university</th>
+               <td>
+                  <label>Friends<input name="thingsinterest" type="radio" value="Friends" /></label>
+                  <label>Television<input name="thingsinterest" type="radio" value="Television" /></label>
+                  <label>Internet<input name="thingsinterest" type="radio" value="Internet" /></label>
+                  <label>Other<input name="thingsinterest" type="radio" value="Other" /></label>
+               </td>
+            </tr>
+            <tr>
+               <th>How likely you recommend university to others</th>
+               <td>
+                  <select name="choices">
+                     <option selected="selected">Very Likely</option>
+                     <option>Likely</option>
+                     <option>Unlikely</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <th>Raffle</th>
+               <td><input type="text" id="data" name="data" placeholder="Enter atleast 10 numbers seperated with comma"
+                     size=70>
+               </td>
+            </tr>
+            <tr>
+               <th>Comments</th>
+               <td><textarea name="Comments" rows="4" cols="50"></textarea></td>
+            </tr>
+         </tbody>
+
+      </table>
+      <p><input type="submit" value="submit">
+         <input type="reset" value="reset">
+      </p>
+   </form>
+</body>
+
+</html>
+
